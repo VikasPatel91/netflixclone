@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    height: 100px;
+}
+
+
+@media (min-width:481px) and (max-width:820px){
+
+    body{
+        height: 2000px;
+    }
+}

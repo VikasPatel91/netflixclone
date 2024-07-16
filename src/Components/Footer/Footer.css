@@ -1,0 +1,154 @@
+*{
+    color: white;
+}
+.f-end {
+    width: 1300px;
+    height: 400px;
+    margin-top: 150px;
+}
+.f-heading {
+    font-size: 16px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    padding-left: 190px;
+}
+  .f-font-size {
+    list-style-type: none;
+    display: flex;
+    font-size: 13px;
+    text-indent: 192px; 
+     margin-top: 10px;  
+     text-decoration: none;  
+   
+}  
+.f-ways{
+    margin-left: 39px;
+}
+
+.f-Privacy{
+    margin-left: -13px;
+}
+
+.f-line-22 {
+    margin-left: -27px;
+}
+
+.l-job{
+    margin-left: -69px;
+} 
+.f-ci{
+    margin-left: -39px;
+}
+.f-oon{
+    margin-left: -12px;
+}
+.f-tou{
+    margin-left: -32px;
+}
+.f-contact{
+    margin-left: -71px;
+}
+.f-cookie{
+    text-indent: 178px;
+}
+
+
+
+@media only screen and (max-width:480px){
+    .f-end {
+        width: 100%;
+        height: 900px;
+    }
+    .f-heading{    
+        margin-left: -143px;
+        margin-top: 61px;
+    }
+    .faq{
+        width: 79px;
+        height: 15px;
+        text-indent: 10px;
+        margin-left: 38px;
+    }
+    .f-left-3{    
+        margin-top: 30px;
+        margin-left: -393px;
+    }
+    .f-help{
+        text-indent: 41px;
+         width: 105px;
+         height: 15px;
+          margin-left: 24px;
+    }
+    .mediac{
+        margin-top: 30px;
+        margin-left: -100px;
+       
+    }
+    .relation-f{
+        margin-left: -142px;
+        margin-top: 5px;
+    
+    }
+    .l-job{
+        width: 0px;
+        margin-left: -151px;
+        margin-top: 5px;
+    }
+    .f-ways{
+        margin-left: -137px;
+        margin-top: 33px;
+    }
+    .f-tou{
+        margin-left: -133px;
+        margin-top: 31px;
+    }
+    .f-privacy{
+        margin-left: -141px;
+        width: 246px;
+        height: 15px;
+        margin-top: 2px;
+    }
+    .f-cookie{
+        height: 30px;
+        text-indent: 1px;
+        margin-top: 1px;
+        margin-left: 79px;
+    }
+    .f-ci{
+        margin-top: 27px;
+        margin-left: -429px;
+    }
+    .f-contact{
+        text-indent: 89px;
+        margin-top: 27px;
+    }
+    .f-speed{
+        text-indent: 51px;
+        margin-top: 2px;
+       
+    }
+    .f-lnotice{
+        margin-left: -115px;
+        margin-top: 2px;
+    }
+    .f-oon{
+        text-indent: -194px;
+        margin-top: 27px;
+    }
+    
+}
+
+
+
+@media (min-width:481px) and (max-width:820px){
+    .f-end{
+       width: 1070px;
+       height: 600px;
+    }
+.f-center{
+    margin-left: -150px;
+}
+.mediac, .f-tou, .f-contact{
+    display: none;
+}
+}

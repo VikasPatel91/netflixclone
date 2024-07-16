@@ -1,0 +1,72 @@
+.acc {
+    display: none;
+}
+.signin-body{
+    background-image:url('../Images/1st.jpg');
+    width:100vw;
+    height: 780px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.signin-height{
+    height: 600px;
+}
+.signin-form{
+    background-color: black;
+    filter: brightness(2) ;
+    height: 500px;
+}
+
+#signin-email, #signin-password {
+    width: 290px;
+    margin-top: 14px;
+    height: 35px;
+    margin-left: 52px;
+    background-color: #333;
+}
+.signin-heading{
+    margin-left: 55px;
+    padding-top: 50px;
+}
+.signin-btn{
+    background-color: red;
+    margin-left: 51px;
+    width: 302px;
+    height: 45px;
+    position: absolute;
+    top: 273px;
+}
+.signin-new-user{
+    margin-top: 120px;
+    margin-left: 57px;
+}
+
+@media(max-width:480px){
+  
+    #signin-email, #signin-password, .signin-btn{
+   margin-left: 25px;
+}
+
+.signin-body{
+    visibility: hidden;
+}
+.signin-height{
+    height: 420px;
+}
+.signin-new-user, .signin-new-user{
+    margin-left: 32px;
+}
+}
+
+@media (min-width:481px) and (max-width:820px){
+
+   .signin-form{
+    margin-left: 220px;
+    margin-top: 91px;
+   }
+
+
+
+}
